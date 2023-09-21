@@ -187,7 +187,7 @@ h1 {
 }
 .service-box:hover {
   border: 2px solid rgba(114, 83, 224, 0.82);
-  box-shadow: 1px 0px 5px 0px rgba(114, 83, 224, 0.82) inset;
+  box-shadow: 1px 0px 5px 0px rgba(114, 83, 224, 0.2) inset;
 }
 .service-section,
 footer {
