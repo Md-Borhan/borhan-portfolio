@@ -1,0 +1,195 @@
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* svg.icon {
+  height: 25px;
+  width: 25px;
+} */
+
+/* Reuseable CSS */
+.container {
+  padding: 0 45px;
+}
+.bg-corn {
+  background-color: cornsilk;
+}
+.bg-aqua {
+  background-color: aqua;
+}
+.text-blue {
+  color: blue;
+}
+.text-18 {
+  font-size: 18px;
+}
+.text-25 {
+  font-size: 25px;
+}
+.text-35 {
+  font-size: 35px;
+}
+.text-45 {
+  font-size: 45px;
+}
+.text-70 {
+  font-size: 70px;
+}
+.fw-eb {
+  font-weight: 800;
+}
+.fw-bold {
+  font-weight: 700;
+}
+.fw-medium {
+  font-weight: 500;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.py-3 {
+  padding: 15px 0;
+}
+.py-5 {
+  padding: 25px 0;
+}
+.py-2 {
+  padding: 10px 0;
+}
+.mt-3 {
+  margin-top: 15px;
+}
+.mt-1 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 40px;
+}
+.gap-7 {
+  gap: 35px;
+}
+.gap-5 {
+  gap: 25px;
+}
+.gap-3 {
+  gap: 15px;
+}
+.text-gradient {
+  background-image: linear-gradient(110deg, rgba(66, 23, 225), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box-shadow {
+  box-shadow: 1px 0px 24px 0px rgba(114, 83, 224, 0.32);
+}
+.border-radius-10 {
+  border-radius: 10px;
+}
+.transition {
+  transition: 0.5s;
+}
+
+/* Header Style */
+header {
+  height: 70px;
+  margin: 0 50px;
+}
+.btn {
+  background-color: transparent;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+}
+.btn:hover {
+  background-color: rgba(114, 83, 224, 0.22);
+  transition: 0.5s;
+}
+
+.hero-section {
+  height: calc(100vh - 70px);
+}
+.hero-desc {
+  max-width: 1100px;
+}
+.bg-btn {
+  background-color: rgba(114, 83, 224, 0.82);
+  color: #fff;
+}
+.bg-btn:hover {
+  color: blue;
+  border: 1px solid rgba(114, 83, 224, 0.52);
+}
+
+/* About Section */
+.about-wrapper {
+  display: grid;
+  gap: 50px;
+}
+.about-address {
+  grid-column: 2 / span 4;
+  grid-row: 1;
+  gap: 8px;
+}
+.about-img-wrapper img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  /* padding-top: 15px; */
+  border: 1px solid rgba(114, 83, 224, 0.82);
+  margin-bottom: 20px;
+}
+.about-resume {
+  text-decoration: underline;
+  margin-top: 10px;
+  display: block;
+}
+.about-resume:hover {
+  text-decoration: none;
+}
+.social-links a:hover {
+  transform: rotate(360deg);
+}
+.service-box {
+  border: 2px solid transparent;
+  padding: 20px;
+}
+.service-box:hover {
+  border: 2px solid rgba(114, 83, 224, 0.82);
+  box-shadow: 1px 0px 5px 0px rgba(114, 83, 224, 0.82) inset;
+}
+.service-section,
+footer {
+  margin-top: 60px;
+}
+footer {
+  padding: 20px 0;
+  border-top: 1px solid rgba(114, 83, 224, 0.42);
+}
