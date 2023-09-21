@@ -133,6 +133,7 @@ header {
   transition: 0.5s;
 }
 
+/* Hero Style */
 .hero-section {
   height: calc(100vh - 70px);
 }
@@ -146,6 +147,9 @@ header {
 .bg-btn:hover {
   color: blue;
   border: 1px solid rgba(114, 83, 224, 0.52);
+}
+h1 {
+  margin: -20px 0;
 }
 
 /* About Section */
